@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#Container{
+    width: 620px;
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+#today, #nextDays{
+    width: 600px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#marg{
+    width: 580px;
+    height: 130px;
+    margin: 10px 10px;
+}
+#todayTop{
+    height: 30px;
+}
+#todayBottom{
+    height: 100px;
+    display: flex;
+}
+#dateTime{
+    float: right;
+}
+#cityCountry{
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+}
+.info{
+    width: 193px;
+}
+#temp{
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 700;
+}
+#infoBlock{
+    text-align: right;
+    margin-top: 30px;
+}
+#margNextDays{
+    width: 580px;
+    height: 150px;
+    margin: 0 10px;
+    display: flex;
+}
+.days{
+    border-right: 1px solid black;
+    width: 116px;
+    text-align: center;
+}
+.days:last-child{
+    border-right: none;
+}
+#dayWeek, #tempNext{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#tempNext{
+    margin-top: 0;
+}
+#date{
+    margin-top: 5px;
+    font-size: 15px;
+}
